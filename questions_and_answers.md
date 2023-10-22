@@ -18,10 +18,10 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
 <i>Write your explanation here</i>
-
+{} - this is empty object and greetign holds an empty object refference and this demonstrates how to declare a variable, assign a value to it
 </p>
 </details>
 
@@ -43,10 +43,10 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
 <i>Write your explanation here</i>
-
+In this example, if someone try to add 1 and "2", it will show "12". Since one of the operands is a string (in this case, "2" is a string because of the double quotes), JavaScript interprets the operation as string concatenation. This is a feature of JavaScript's dynamic typing system.
 </p>
 </details>
 
@@ -69,10 +69,10 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
 <i>Write your explanation here</i>
-
+info.favoriteFood = "🍝"; is a object property where info object holds its value but food array does not effect.
 </p>
 </details>
 
@@ -94,10 +94,10 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
 <i>Write your explanation here</i>
-
+In JavaScript, when we call a function without passing the expected arguments, the parameters inside the function are assigned the value of undefined.
 </p>
 </details>
 
@@ -122,9 +122,10 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
 <i>Write your explanation here</i>
-
+num = 0 => is falsy if condition is false count will not be increased 
+then for each 1, 2, and 3 i.e. num is truthy count will not be increased by 1 and total sum will be 3
 </p>
 </details>
